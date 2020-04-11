@@ -1,0 +1,134 @@
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Avenir Next',
+    Avenir,
+    'Helvetica Neue',
+    helvetica,
+    Ubuntu,
+    roboto,
+    Noto,
+    'Segoe UI',
+    arial,
+    sans-serif;
+  font-size: 1.25em;
+  margin: 2ex auto;
+  max-width: 95%;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 2ex;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 4ex auto;
+}
+
+p {
+  max-width: 32em;
+}
+
+em, figcaption {
+  font-style: italic;
+  font-family:
+    'Iowan Old Style',
+    'Apple Garamond',
+    Baskerville,
+    'Times New Roman',
+    'Droid Serif',
+    Times,
+    'Source Serif Pro',
+    serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  display: inline-block;
+  margin: 2ex 0;
+}
+
+figcaption {
+  text-align: right;
+}
+
+blockquote {
+  font-size: 0.8em;
+  margin: 1ex 1em;
+  max-width: 28em;
+}
+
+code {
+  padding: 0.5ex 0.5em;
+}
+
+pre {
+  padding: 2ex 1.5em;
+}
+
+table {
+  padding: 0.5ex 0.5em;
+}
+
+th, td {
+  padding: 0.5ex 0.5em;
+}
+
+code, table {
+  font-family:
+    Menlo,
+    Consolas,
+    Monaco,
+    'Liberation Mono',
+    'Lucida Console',
+    monospace;
+}
+
+code, table, pre {
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+pre, table {
+  margin: 2ex 1em;
+  max-width: 100%;
+  white-space: pre;
+  overflow: auto;
+}
+
+blockquote, code, figcaption, pre, table {
+  font-size: 0.8em;
+}
+
+pre code {
+  font-size: 1em;
+  white-space: pre;
+}

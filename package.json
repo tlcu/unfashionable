@@ -1,0 +1,20 @@
+{
+  "name": "unfashionable",
+  "version": "1.0.0",
+  "description": "Basic CSS for Web 1.0 sites",
+  "main": "index.js",
+  "author": "Thomas Lee Culverwell",
+  "license": "0BSD",
+  "url": "https://github.com/tlcu/unfashionable",
+  "files": [ "style.css", "minified.css" ],
+  "devDependencies": {
+    "csso": "^4.0.3",
+    "csso-cli": "^3.0.0",
+    "stylelint": "^13.3.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "lint": "stylelint style.css",
+    "prepare": "csso style.css -o minified.css -s inline"
+  }
+}
