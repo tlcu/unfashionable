@@ -132,3 +132,12 @@ pre code {
   font-size: 1em;
   white-space: pre;
 }
+
+ul, ol {
+  margin: 0 0 0 0.5em;
+  padding: 0;
+}
+
+li {
+  margin: 1ex 0 1ex 1em;
+}
